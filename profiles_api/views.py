@@ -10,7 +10,7 @@ from rest_framework.permissions import IsAuthenticated
 
 from profiles_api import serializers
 from profiles_api import models
-from profiles_api  import permissions
+from profiles_api import permissions
 
 
 class HelloApiView(APIView):
