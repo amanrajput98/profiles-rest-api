@@ -22,7 +22,7 @@ class HelloApiView(APIView):
         an_apiview = [
             'Uses HTTP methods as function(get, post, patch ,put, delete)',
             'Is Similar to a traditional Django view',
-            'Gives you the most control over you application logic',
+            'Gives you the most control over your application logic',
             'Is mapped manually to URLs',
         ]
 
@@ -59,7 +59,7 @@ class HelloViewSet(viewsets.ViewSet):
     serializer_class = serializers.HelloSerializer
 
     def list(self, request):
-        """Returns a hello message"""
+        """Returns a hello message and VIEWSET features"""
 
         a_viewset = [
             'Uses actions (list, create, retrieve, partial updates)',
